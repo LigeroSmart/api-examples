@@ -1,0 +1,11 @@
+_id: env_edc439b4ef56485e86a5c3f585121c62
+type: Environment
+parentId: env_e1588b632cb7b23f7fc313447be340b1107dedba
+modified: 1648655254484
+created: 1648652720047
+name: Ligero
+data: {}
+dataPropertyOrder: {}
+color: "#a32e2e"
+isPrivate: false
+metaSortKey: 1648652720047

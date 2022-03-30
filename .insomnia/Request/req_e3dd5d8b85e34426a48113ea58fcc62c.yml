@@ -1,0 +1,34 @@
+_id: req_e3dd5d8b85e34426a48113ea58fcc62c
+type: Request
+parentId: wrk_7511931553504aa5adabad0e5977e8ed
+modified: 1648655779083
+created: 1648654390223
+url: http://localhost/otrs/nph-genericinterface.pl/Webservice/v1.0/ticket/update
+name: Ticket Update
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"TicketID": "3",
+    	"TicketNumber": "2022033010000011",
+    	"SessionID": "2BjNUySFLqmc9fHntLS2oBrBEN7Nud5b",
+    	"Ticket": {
+    		"ServiceID": "2"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_219a48175e32454fa758d442a23a3e8d
+authentication: {}
+metaSortKey: -1648654390223
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

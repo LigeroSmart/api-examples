@@ -1,0 +1,76 @@
+_id: req_294d0a0dfb694e62afb4168bf22e1e56
+type: Request
+parentId: wrk_7511931553504aa5adabad0e5977e8ed
+modified: 1648655207055
+created: 1648652685551
+url: http://localhost/otrs/nph-genericinterface.pl/Webservice/v1.0/ticket/create
+name: Ticket Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"SessionID": "2BjNUySFLqmc9fHntLS2oBrBEN7Nud5b",
+    	"ControlSearch": {
+        "DynamicField_TicketKey": {
+          "Equals": "teste"
+        },
+        "States": ["new", "open"]
+      },
+    	"IgnoreOnUpdate": [
+        "Ticket::Queue",
+        "Ticket::State"
+      ],
+    	"Ticket": {
+        "Title": "Alterar o titulo do chamado",
+        "QueueID": 1,
+        "Lock": "unlock",
+        "TypeID": 1,
+        "ServiceID": 1,
+        "StateID": 1,
+        "PriorityID": 1,
+        "Priority": "1 very low",
+        "OwnerID": 1,
+        "Owner": "root@localhost",
+        "ResponsibleID": 1,
+        "Responsible": "root@localhost",
+        "CustomerUser": "CPF DO CLIENTE sem pontuação",
+        "Body": "Descrição do chamado 1"
+      },
+    	"Article": {
+        "CommunicationChannel": "Email",
+        "CommunicationChannelID": 1,
+        "IsVisibleForCustomer": 1,
+        "SenderTypeID": 1,
+        "SenderType": "agent",
+        "AutoResponseType": "auto reply",
+        "From": "ricardo.silva@complemento.net.br",
+        "ContentType": "text/plain; charset=UTF-8",
+        "Body": "Texto do chamado",
+        "Subject": "Alterar o titulo do chamado",
+        "MimeType": "text/plain",
+        "Charset": "UTF-8",
+        "HistoryType": "NewTicket",
+        "HistoryComment": "Integracao Comunix history",
+        "TimeUnit": 1,
+        "NoAgentNotify": 1,
+        "ForceNotificationToUserID": [1],
+        "ExcludeNotificationToUserID": [1],
+        "ExcludeMuteNotificationToUserID": [1]
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7de617cfeef14eb0926f7060b9f2fa08
+authentication: {}
+metaSortKey: -1648652685551
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

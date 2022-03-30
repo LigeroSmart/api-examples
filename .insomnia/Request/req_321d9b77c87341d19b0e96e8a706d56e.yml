@@ -1,0 +1,30 @@
+_id: req_321d9b77c87341d19b0e96e8a706d56e
+type: Request
+parentId: wrk_7511931553504aa5adabad0e5977e8ed
+modified: 1648655206503
+created: 1648653989755
+url: http://localhost/otrs/nph-genericinterface.pl/Webservice/v1.0/session/create
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"UserLogin": "root@localhost",
+    	"Password": "ligero"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f97dbc5fcc7c4796a944d9e7bb69123e
+authentication: {}
+metaSortKey: -1648653989755
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
