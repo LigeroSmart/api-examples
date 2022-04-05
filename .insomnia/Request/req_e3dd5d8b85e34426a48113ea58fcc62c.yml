@@ -3,7 +3,7 @@ type: Request
 parentId: wrk_7511931553504aa5adabad0e5977e8ed
 modified: 1648655779083
 created: 1648654390223
-url: http://localhost/otrs/nph-genericinterface.pl/Webservice/v1.0/ticket/update
+url: http://localhost/api/v1.0/ticket/update
 name: Ticket Update
 description: ""
 method: POST
